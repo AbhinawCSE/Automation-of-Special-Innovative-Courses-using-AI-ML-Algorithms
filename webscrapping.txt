@@ -1,0 +1,227 @@
+MSRUAS | University Innovation Centre 
+  Trigger/Open The Modal  
+ Admissions  
+  Modal content  
+ 
+ Enquire Now 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <span class="subtitle">Private University Estd. in Karnataka State by Act No. 15 of 2013</span> <br/>
+          <span class="subtitle">(UGC Approved, NIRF-MHRD Ranked)</span> 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   old value 96% 
+ 
+ Home 
+ University 
+ Admissions 
+ Academics 
+ <li><a href="/research">Research</a></li>             
+ 
+ 
+                Research 
+ 
+ 
+ Academic Research 
+ Sponsored Research 
+ Research Centres 
+ Techno Center 
+ 
+ 
+ <li><a href="/sponsored_research/sr_consultancy">Sponsored Research </br> &amp; Consultancy</a></li> 
+ Training 
+ Student Affairs 
+ 
+ People 
+ 
+ Officers and Organisation 
+ Faculty / Staff 
+ 
+ 
+ Jobs@RUAS 
+ Contact 
+ 
+ Portals 
+ 
+ RUAS-Portal 
+ iPortal 
+ 
+ 
+  <li><a href="http://www.iportal.msruas.ac.in">iPortal</a></li> 
+           <li><a href="https://easypay.axisbank.co.in/easyPay/makePayment?mid=MzUyNjU%3D">Pay Fee</a></li> 
+ 
+ 
+ 
+ 
+  google custom search css overrides starts  
+ 
+  google custom search css overrides ends  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ RUAS Innovation Centre 
+ 
+ 
+ 
+  The main objectives of this Centre are: 
+   
+ Encourage students and staff of MSRUAS to develop innovative and creative ideas that are useful to Society 
+ Help students and staff members to convert innovative ideas into technology demonstrations 
+ Patenting of ideas 
+ Help students and staff participate in national and international competitions 
+ Provide necessary guidance for Technology and Business Incubation 
+ Seek funds for development of technology demonstrations and participate in competition from Industries and Business organisations through CSR initiatives of the organisations 
+ 
+ 
+ The organisation of the Centre 
+ 
+ 
+ 
+ Activities of the Centre 
+ 
+ Internal Hackathon for Smart India Hackathon-2020 Non-Classroom (Innovation) UG Courses in place of Open Electives  RUAS Innovation Challenge  Dream Team  Technical Competitions Events Contact: 
+ 
+ Dr. Narendra Babu C. 
+    Head -RUAS Innovation Centre       
+    Tel : +91 80 4906 5555, Ext: 2218       
+    E-mail :  head.ruasic@msruas.ac.in 
+ 
+  start: Container  
+ 
+  start: Row  
+ 
+  start: About  
+ 
+ 
+ 
+          M. S. Ramaiah University of Applied Sciences
+           Private University Estd. in Karnataka State by Act No. 15 of 2013(UGC Approved, NIRF-MHRD Ranked) 
+ 
+ 
+ 
+					University House, Gnanagangothri Campus 
+					 
+ 
+					  (+91) 80 4536 6666 					
+				 
+ 
+					  (+91) 80 4536 6677	
+				 
+ 
+					  
+					 uas@msruas.ac.in 
+ 
+ 
+					  
+					 Google Map 
+ 
+ 
+					  
+					 Route Map 
+ Follow Us 
+ Useful Links 
+ 
+ Part-Time & User Oriented Programme 
+ Human Resource Department 
+ RUAS Innovation Centre 
+ Transferable Skills and Leadership Development 
+ International Collaborations & Partnership Mgmt. 
+ Public Relations and Publicity 
+ Support from Industries & Businesses 
+ <li><a href="/university/fald_cell">Faculty and Academic Leadership Development Cell</a></li>
+						<li><a href="/academics/qpet">Quality Assurance Cell</a></li>
+						<li><a href="/university/pedagogy">Pedagogy and Digital Learning Initiatives Cell</a></li> 
+ <li><a href="http://www.nad.gov.in", target="_blank">National Academic Depository (NAD)</a></li> 
+ Annual Reports 
+ University Notifications 
+ 
+ Collaborative Centres 
+ 
+ 
+ Innovation Centre in Biomedical Engineering 
+ Ramaiah - GoK Technology Business Incubator 
+ 
+ 
+ <li><a href="/mous">MoU&#39;s - National &amp; International Understandings</a></li>
+					<li><li><a href="/ads">University Ads</a></li>	 
+ 
+ 
+ Useful Links 
+ <div><p><a href="/kannada_saurabha"><img alt="Kannadasaurabha" class="img-responsive  " src="/assets/kannadasaurabha-f03ef4be3e938916562c41ea8a1eff72.png" /></a></p></div> 
+ PAY FEE ONLINE 
+ E - NOTICE BOARD 
+ WEBMAIL 
+ Complaints 
+ Alumni Network 
+ Programme Operations Documents 
+ Letters of Appreciation 
+ Frequently Asked Questions (FAQ's) 
+ Newsletter 
+ Prestigious Lectures 
+ University Journals 
+ Students & Parents Feedback 
+ <<li><a href="/proceedings">Convocation Proceedings</a></li>					
+					li><a  href="/pdf_files/University/Brand Guidelines.pdf", target="_blank">Brand Guidelines</a></li> 
+ Site Map 
+ 
+ 
+ 
+  start: Container  
+ 
+  start: Row  
+ 
+  start: Under Footer Logo  
+ 
+ 
+				Powered by  Nighthack Technology 
+ 
+  end: Under Footer Logo  
+  start: Under Footer Copyright  
+ 
+ 
+					© 2020, MSRUAS - All Rights Reserved.
+				 
+ 
+  end: Under Footer Copyright  
+  start: Under Footer Back To Top  
+ 
+ 
+ 
+ 
+ 
+  end: Under Footer Back To Top  
+ 
+  end: Row  
+ 
+  end: Container   
+ 
