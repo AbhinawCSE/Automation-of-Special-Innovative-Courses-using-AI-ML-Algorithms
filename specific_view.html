@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>AutoPro</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- bootstrap core css -->
+ <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css')}}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{{ url_for('static', filename='css/responsive.css')}}" rel="stylesheet" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <style>
+  .hero_area {
+  height: 136vh;
+  position: relative;
+  background-image: url(../static/images/image3.jpeg);
+  background-size: cover;
+  
+  
+  
+}
+</style>
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <header class="header_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-11 offset-lg-1">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="/">
+                <img src="static/images/image1.jpeg" alt="">
+                <span>
+                   AutoPro
+                </span>
+              </a>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav  ">
+                   <li class="nav-item">
+                      <a class="nav-link" href="facultyHome"><i class="fa fa-user" aria-hidden="true"></i>
+					  Faculty Home</a>
+                    </li>
+					
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+<section class="main" id="main">
+    <table class="table table-striped table-dark" style="width: 70%;text-align: center;margin-left: 220px;margin-top: 50px;">
+        <thead>
+		
+          <tr>
+			<th scope="col">Student Id</th>
+            <th scope="col">Event Name</th>
+            <th scope="col">Event Date</th>
+            
+			<th scope="col">Organizer</th>
+          </tr>
+        </thead>
+        <tbody>
+		{% for item in record %}
+          <tr>
+            
+            <td>{{item[0]}}</td>
+            <td>{{item[1]}}</td>
+			<td>{{item[2]}}</td>
+            <td>{{item[3]}}</td>
+			 
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      <br><br><br><br><br><br>
+    </section>
+<br>
+<br>
+<br>
+      <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="info_container">
+        <div class="info_social">
+          <div class="d-flex justify-content-center">
+            <br><br><br>
+            <h4 class="">
+              Follow on
+            </h4>
+          </div>
+          <div class="social_box">
+            <a href="">
+              <img src="static/images/fb.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/twitter.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/instagram.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/linkedin.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/dribble.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/pinterest.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+   
+    <div class="container">
+      <p>
+
+        &copy; 2019 All Rights Reserved By
+        <a href="/">Autopro</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="static/js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="static/js/bootstrap.js"></script>
+
+</body>
+
+</html>

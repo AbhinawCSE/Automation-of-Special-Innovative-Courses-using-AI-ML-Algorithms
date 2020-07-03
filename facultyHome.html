@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  
+
+  <title>AutoPro</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css')}}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{{ url_for('static', filename='css/responsive.css')}}" rel="stylesheet" />
+  
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <style>
+ 
+  .hero_area1 {
+  height: 136vh;
+  position: relative;
+  background-image: url(../static/images/image8.jpg);
+  background-size: cover;
+}
+/* Style the search field */
+form.example input[type=text] {
+     padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    margin-left: 30%;
+    width: 80%;
+    max-width: 30%;
+    border-radius: 70px;
+	margin-top:5%;
+    background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 100px;
+	margin-top:5%;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  </style>
+</head>
+
+<body>
+
+
+  <div class="hero_area1">
+    
+    <header class="header_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-11 offset-lg-1">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="/">
+                <img src="static/images/image1.jpeg" alt="">
+                <span>
+                   AutoPro
+                </span>
+              </a>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav  ">
+					
+					<li class="nav-item">
+						<a class="nav-link" ><i class="fa fa-user" aria-hidden="true"></i>
+						{{faculty_name}}
+						</a>
+						</li>
+					
+					<li class="nav-item">
+                      <a class="nav-link" href="/"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</a>
+                    </li>
+					
+					
+					<li class="nav-item">
+                      <a class="nav-link" href="/"></i>Logout</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<form class="example" method="POST" action=""  enctype="multipart/form-data">
+  <input type="text" name="search" placeholder="Search Student Submission..">
+  <button type="submit"><i class="fa fa-search"></i></button></a>
+</form>
+
+	<div class="row">
+  <div class="col-sm-6">
+  <div class ="card1">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">View Submission</h2>
+        <p class="card-text">View Submitted documents and certificates of the students</p>
+		
+        <a href="view_submission" ><button type="button"class="btn btn-primary">Go to View Submission desk</button></a>
+		
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<section class="info_section ">
+    <div class="container">
+      <div class="info_container">
+        <div class="info_social">
+          <div class="d-flex justify-content-center">
+            <h4 class="">
+              Follow on
+            </h4>
+          </div>
+          <div class="social_box">
+            <a href="">
+              <img src="static/images/fb.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/twitter.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/instagram.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/linkedin.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/dribble.png" alt="">
+            </a>
+            <a href="">
+              <img src="static/images/pinterest.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <div class="container">
+      <p>
+        &copy; 2019 All Rights Reserved By
+        <a href="/">Autopro</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  
+
+</body>
+
+</html>
